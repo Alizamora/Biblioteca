@@ -1,0 +1,22 @@
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: gray;
+  font-family: Helvetica, sans-serif; }
+
+table {
+  width: 900;
+  height: 600;
+  margin: 0 auto;
+  border: solid 2px #b8b8b8;
+  margin-top: 10px; }
+  table tr td {
+    width: 100px;
+    height: 100px;
+    background-color: black; }
+  table tr:nth-child(2n) td:nth-child(2n) {
+    background-color: white; }
+  table tr:nth-child(2n+1) td:nth-child(2n+1) {
+    background-color: white; }
+
+/*# sourceMappingURL=style.css.map */

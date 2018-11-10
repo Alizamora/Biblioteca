@@ -1,0 +1,43 @@
+//Estilos de la cuadricula utilizando Pseudo-clases
+
+//Values
+$Font: Helvetica, sans-serif;
+
+//mixims
+
+//titulo superior
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: gray;
+    font-family: $Font;
+
+}
+
+//contenedo de la cuadricula
+table{
+    width: 900;
+    height: 600;
+    margin: 0 auto;
+    border: solid 2px rgb(184, 184, 184);
+    margin-top: 10px;
+    tr{
+        td{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }
+        &:nth-child(2n) td:nth-child(2n){
+            background-color: white;
+        }
+        &:nth-child(2n+1) td:nth-child(2n+1){
+            background-color: white;
+        }    
+    }
+}
+
+
+
+
+
+

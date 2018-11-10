@@ -1,0 +1,104 @@
+
+/* Estilos del Dropdown*/
+
+body{
+    margin: 0;
+}
+
+.container{
+    background-color: black;
+    margin: 0 auto;
+    display: grid;
+}
+
+.btn-menu{
+    width: 90%;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#dropdown{
+    padding-top: 80px;
+    padding-bottom: 30px;
+    margin-top: 0;
+
+}
+
+.dropdown-submenu>.dropdown-menu{
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    border-radius: 0 6px 6px 6px;
+
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    border-radius: 6px 0 6px 6px;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: rgb(153, 153, 153);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+}
+
+.dropdown-menu li a{
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown-menu li a:hover{
+    background-color: #f1f1f1;
+}
+
+.btn-menu:hover {
+    color: rgb(107, 107, 107);
+    transition: 0.5s;
+}
+
+li.menu:hover > .dropdown-menu{
+    display: block;
+}
+
+.menu{
+    display: inline-block;
+    position: grid;
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+    height: 40px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0 auto;
+    padding: 0;
+    position: grid;
+}
